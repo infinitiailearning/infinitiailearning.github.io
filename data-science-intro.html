@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>InfinitiAI Learning</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <style> 
+        ul {
+                list-style: none;
+        }
+        ul li::before {
+                            content: "✅";
+                            display: inline-block;
+                            margin-right: 0.2rem;
+        }
+
+        ul ul li::before {
+                            content: "📌";
+        }
+        ul ul ul li::before {
+                                content: "♻";
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>InfinitiAI Learning</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <a href="team.html" class="nav-item nav-link">Instructors</a>
+                <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Courses</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="courses.html">Courses</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="data-science.html">Data Science Courses</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Applied Data Science for Industry</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+
+    <!-- Courses Start -->
+        <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Course</h6>
+                <h2 class="mb-5">Applied Data Science for Industry: From Fundamentals to Deep Learning</h2>
+                <p> This course provides a thorough exploration of fundamental concepts and their practical use cases in industries, with each topic being accompanied by detailed hands-on implementation. The course will be facilitated by a team of industry and academic experts and researchers, who will also be available to address any additional queries or concerns. By enrolling in this course, you will be equipped with the skills and knowledge necessary to apply for a variety of data-focused roles, including Data Scientist, Data Engineer, Data Analyst, and ML Engineer, across various industries.</p>
+                <p><br> </p>
+                
+                <h2 class="mb-5">Who is this course for </h2>
+                
+                    <div class="container-xxl py-5">
+                        <div class="container">
+                            <div class="row g-4">
+                                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item text-center pt-3">
+                                        <div class="p-4">
+                                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                                            <h5 class="mb-3">Beginners</h5>
+                                            <p>If you are a beginner in data science and want to learn the foundation by working on hands-on projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item text-center pt-3">
+                                        <div class="p-4">
+                                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                                            <h5 class="mb-3">Career Switch</h5>
+                                            <p>If you work in industry and want to switch your career to data science. Start your journey today with us. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item text-center pt-3">
+                                        <div class="p-4">
+                                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                                            <h5 class="mb-3"> Academic Projects</h5>
+                                            <p>If you want to use data science algorithms in your academic/research or personal projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item text-center pt-3">
+                                        <div class="p-4">
+                                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                                            <h5 class="mb-3"> Simply Curious</h5>
+                                            <p>If you are not from the computer science or related discipline but are curious about the scope and application.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                <p><br> </p>
+                
+                <h2 class="mb-5">What you'll get out of this course </h2>
+                
+                <div class="container"> 
+                    <div class="row g-4" align="justify">
+                
+                        <ul>
+                            <li> <b style="font-size:20px; ">Video + Live Lectures + Doubt Sessions</b> <br>
+                                We offer a dynamic learning experience through our online live classes, accompanied by the convenience of video lecture recordings. This allows you the flexibility to learn and review the material at your preferred pace. Moreover, we prioritize your understanding by hosting interactive doubt-clearing sessions, ensuring a strong grasp of the fundamental concepts. 
+                            
+                            </li>
+                            <li><b style="font-size:20px; ">Solve real industrial problesm with Data Science</b> <br>
+                                As you progress through this course, you will attain the ability to skillfully determine the most appropriate algorithm for a given industrial problem. By course completion, you'll possess the insights needed to make informed and strategic algorithmic choices in an industrial context.
+                                
+                            </li>  
+                            
+                            <li><b style="font-size:20px; ">End to End training of an ML Model</b> <br>
+                                You will gain the capability to train a model tailored to your specific requirements and demands. Additionally, you'll acquire the proficiency to enact fundamental modifications within algorithms, empowering you with the freedom to fine-tune and adapt them as needed.
+                                
+                            </li> 
+                            
+                            <li><b style="font-size:20px; ">Understand Data Engineering</b> <br>
+                                You will not only learn the role of data engineering and data understanding in the realm of machine learning, but you will also grasp their pivotal significance. This understanding will enable you to navigate the intricate interplay between data and machine learning with a heightened level of expertise.
+                                
+                            </li> 
+                                
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+                <h2 class="mb-5">Course Syllabus</h2>
+                
+                <div class="container"> 
+                    <div class="row g-4" align="justify">
+                
+                        <ul>
+                            <li> <b style="font-size:20px; ">Introduction and Preliminaries</b> <br>
+                                
+                                <ul>
+                                        <li>Defining Data Science and the Role of Data Scientists. </li>
+                                    
+                                        <li>Importance of Big Data and its Applications </li>
+                                    
+                                        <li>Fundamentals of SQL. </li>
+                                        
+                                        <li> Mathematics for Data Science 
+                                            <ul> 
+                                                <li> Linear Algebra:Vectors and Matrices, Operations on Vectors and Matrices, and Eigenvalues, Eigenvectors, and SVD. </li>
+                                                <li> Probability and Statistics: Bayes Rule, Gaussian Distribution, Expectation, Variance, and Moments. </li>
+                                                
+                                                <li> Calculus: Differential and Integral Calculus and Multivariate extensions.</li>
+                                            
+                                            </ul>
+                                    
+                                        
+                                        </li>
+                                        
+
+
+                                </ul>
+                            
+                            </li>
+                            
+                            <li> <b style="font-size:20px; ">Python Programming and PyTorch for Machine Learning</b> <br>
+                                
+                                <ul>
+                                        <li>Python Programming Basics: Functions, Variables, and Libraries </li>
+                                    
+                                        <li>Libraries for Data Science: Pandas, Numpy, and Scikit-learn</li>
+                    
+                                        
+                                        <li> PyTorch Framework 
+                                            <ul> 
+                                                <li> Setting up PyTorch </li>
+                                                <li> Basic Statistical Analysis with PyTorch </li>
+                                                
+                                                <li> PyTorch for Machine Learning examples </li>
+                                            
+                                            </ul>
+                                    
+                                        
+                                        </li>
+                                        
+
+
+                                </ul>
+                            
+                            </li>
+                            
+                            <li><b style="font-size:20px; ">Gradient Descent and Stochastic Gradient Descent</b> <br>
+                                <ul>
+                                        <li>Convex and non-convex Functions</li>
+                                        <li>Convex and Non-convex Optimization</li>
+                                        <li>Gradient Descent and Stochastic Gradient Descent</li>
+                        
+
+                                </ul>
+                                
+                            </li>  
+                            
+                            <li><b style="font-size:20px; ">Machine Learning Algorithms for Industry</b> <br>
+                                <ul>
+                                        
+                                    <li>Introduction to Machine Learning
+                                        <ul>
+                                            <li>Loss, Cost, and Activation Functions</li>
+                                            <li>Bias vs. Variance</li>
+        
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>Supervised Machine Learning
+                                        <ul>
+                                            <li>Regression: Linear Regression, kNN regression and Kernel Regression </li>
+                                            <li>Classification: kNN Classification, Naive Bayes, Logistic Regression, SVM and Decision Trees </li>
+                                            <li>Bagging/Boosting: Bagging and Boosting, Random Forest,  XG Boost</li>
+
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>Unsupervised Machine Learning
+                                        <ul>
+                                            <li>Clustering: K-means and Hierarchical Clustering</li>
+                                            <li>Dimensionality Reduction: PCA and Non-linear Dimensionality Reduction </li>
+        
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>Reinforcement Learning
+                                        <ul>
+                                            <li>Introduction to RL</li>
+                                            <li>Dynamic Programming and Q-learning</li>
+        
+                                        </ul>
+                                    </li>
+                                    
+        
+
+                                </ul>
+                            </li> 
+                            
+                            <li><b style="font-size:20px; ">Introduction to Deep Learning and Deep Neural Networks</b> <br>
+                                <ul>
+                                        <li>Introduction to Artificial Neural Networks 
+                                            <ul>
+                                                <li> Fully connected shallow neural networks </li>
+                                                <li> Backpropagation and demo </li>
+                                            </ul>
+                                        
+                                        </li>
+                                        <li>Convolutional Neural Networks</li>
+                                        <li> Recurrent Neural Networks</li>
+                                        <li>Advanced Neural Network Architectures</li>
+
+                                </ul>
+                                
+                            </li> 
+                                
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    <!-- Courses End -->
+    
+     <!-- Team Start -->
+<div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/anantraj94/"><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://anantrajml.github.io/"><i class="fa fa-address-book"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Anant Raj</h5>
+                            <small>Research Scientist in Data Science. Curently a Marie-Curie Fellow at University of Illinois at Urbana-Champaign, USA and Inria, Paris</small>
+                            <a href="team.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.linkedin.com/in/deepkshikha/"><i class="fab fa-linkedin"></i></a>
+                
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Kumari Deepshikha</h5>
+                            <small>Currently Lead of AI and NLP at Splore. Previously Senior Data and Applied Research Scientist at Lowe's Companies Inc. and NVIDIA.</small>
+                            <a href="team.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+     <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Anubhav Kumar</h5>
+                    <p>Data Scientist</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I once got a chance to attend a few lectures of data science by Anant. He explained all the fundamentals so well that I eneded up pusring my career in data science.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Anjali Kumari</h5>
+                    <p>ML Engineer</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Kumari Deepshikha was my mentor when I was a data science intern. She is a very good mentor and teacher. I learned so much during my internship.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Amey Agrawal</h5>
+                    <p>PhD Student</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">I did my data science internship with Kumari Deepshikha. It was a huge learning experience for me.</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Bangalore, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-9971661359</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>infinitiailearning@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p> Coming Soon.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="contact.html">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
